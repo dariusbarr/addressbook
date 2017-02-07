@@ -3,3 +3,11 @@ install:
 - mvn install
 jdk:
 - oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: WMAwaIpc5vnpVP6HADf1zgrU+ty+oYG2UMDHGyvK1OunlfZKmgjk9GPzapZhflnkHnWZO7iVvNICor+dUHBrPtjfDUUf2TL/tE5H1iqK13E6XMlHxo0C80G5hwx+GDVR1XpDEPaqiB77dPNizD42shD4HWVD5wxEpHPPjHoZCnv+acBpLE1GMp1y5xLlQLATSlIDfilk6YcRihKKG/J0dsL1ehsBNs9a+JmcdjmnIGI2yGRi3065jxMGl7Yh22Kwm+xFaeaVkndH2A5DSQxTLxGvPY6KKei+3n1cvfesbCibHU4r1qVida92CQ2d/jL4jO/XOTgZ74WrfFXIAlxd/vgt5apKmHw9F66NUfIbY2GM5yTEMMrtoLZlq3Ahvn/eY4lEikRiO6lnH1yXFYP4+D7L1CW+gUbdYs8SHCvLhsfru7ZSO3aeESHRsrY/wWwV4r1c9kWa8ujrQsRfffmWdfEnqYgBP52OHFazjoqYUmvGSVUv9VJdQCbir4obro6wgl83rS2IjM4Ib6wLqFrAFMDpl0sjvda2iOdM4qxil2qQvK00+Lc1TP87T8Uuy3+BZsV5xcSgtbxzFIMdqJ1wspTISP7dI5qOpNVrMWb1ZlfixuDAb210tZ8/A3mqzndodJtcCtnHWRe+SBzll4YfyU0orfrl/dKbZ4JNPPy2hs8=
+  app: dariusbarr-taskbook
+  on:
+    repo: dariusbarr/addressbook
+    branch: todo_tasks
