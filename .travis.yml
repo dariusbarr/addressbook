@@ -1,0 +1,8 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: jdpapr2yBNu+bm0+6QVTFdWO4B53EYs+1Kx8dASIS3ZAC8NabPcDU+yFeEHJ/hJQAsbS0sWqrGOOeugoWjOcJxSRdOhc17D0td89oWO3N1/AtTT+l+uWGa8IsQ9iQW4jTVbC+9Nr+CBzTgFows92aMq+ubdQZS5Q4ThrhCbsnSYcgd9FDwpuZIGsTTrQhP4C0H/vyadAYSlU+RT5vLqhAqZiKY1/TDnCNcqSLYkVJbT2/PxlRkU1CPwwOge9eawaszez0Q/mKNjCz1WBTrxmrZJmk8Sy/V1CvdGPfUBvtyGMZn0TXdLIhqClhi4qaulfdIKUOa2If7UizwQNIcs1PXCjnUedgEyx79Ls1r3xi+o/DeSOe6GXn8RF1/0Xege8s1ylgzWdFgYDL/+IF17qBXzUt6PgqlxV8ScAJVd1oipaMRtmGa6EZqWKo2x0XS+wURB4XjhH73NpdBJ7aYiorSAv1gOQjBu4zm+tGQSEhvuZGcBRZvZaqlFfSk8O/4BLW/XbpQnUHQJFQ2C84CTzpaKiqyM6qaVY2GcUk2u6sBgo80ryCw+VVxACJ2DPLBS/rZ9Nt9fZPs/PG7dlig4/Ka7pmUM4CUCIhb/3hljXzlPtA2uuq9+sRLynICup563gsKFr0/wu8nHKPpykfYyEPZOnNcJIe2nQt7kc25rxClw=
+  app: dariusbarr-addressbook
+  on:
+    repo: dariusbarr/addressbook
+    branch: todo_tasks
